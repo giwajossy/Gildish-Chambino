@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota:wght@400;700&display=swap');
 
+
+* {
+    font-family: 'Bellota', cursive;
+}
+
+
 body {
     
     text-align: center;
@@ -13,14 +19,16 @@ body {
 .arena {
     padding: 3%;
     text-align: center;
+    transition: .5s ease-in-out;
 }
 
 .left, .right {
     display:inline-flex;
-    width: 25%;
+    width: 30%;
     text-align: center;
     border-top: 1px solid rgba(192,57,43,1);
     padding: 1%;
+    transition: .5s ease-in-out;
 }
 
 .left {
@@ -41,6 +49,7 @@ body {
     color: white;
     outline: none;
     border: none;
+    transition: .5s ease-in-out;
 }
 
 
